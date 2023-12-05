@@ -1,0 +1,71 @@
+body {
+  margin: 0px;
+  background-size:cover;
+  background-image: url(img/day.jpg);
+  font-family: "Roboto";
+  font-size: 25px;
+}
+
+@font-face{
+  font-family: "Roboto";
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face{
+  font-family: "Roboto";
+  src: url(fonts/Roboto-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face{
+  font-family: "Roboto";
+  src: url(fonts/Roboto-Italic.ttf);
+  font-style: italic;
+}
+
+@font-face{
+  font-family: "Roboto";
+  src: url(fonts/Roboto-BoldItalic.ttf);
+  font-weight: bold;
+  font-style: italic;
+}
+
+#content{
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  justify-items: center;
+  padding: 20px;
+}
+
+#citySearch {
+  background-color: rgb(188, 185, 185);
+  border-style: none;
+  border: 0px;
+  border-radius: 15px;
+  font-size: 30px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+#middle {
+  margin-top: 100px;
+  background-color: rgb(188, 185, 185);
+  padding: 70px 30px;
+  border-radius: 15px;
+  color: rgb(54, 52, 52);
+}
+
+#bigDiv{
+  display: grid;
+  grid-template-columns: 64px 1fr;
+}
+
+#temp{
+  font-size: 100px;
+}
+
+#location {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center
+}
