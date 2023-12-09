@@ -10,12 +10,13 @@ const forecast = async (city) => {
       const temp = cityWeather.current.temp_c;
       const isDay = cityWeather.current.is_day;
       let iconSrc;
+      console.log(cityWeather.current.condition.icon);
       if (isDay === 0) {
         iconSrc = `img/weather/64x64/night/${cityWeather.current.condition.icon.substr(
           -7,
         )}`;
       } else if (isDay === 1) {
-        iconSrc = `img/weather/64x64/x§xday/${cityWeather.current.condition.icon.substr(
+        iconSrc = `img/weather/64x64/day/${cityWeather.current.condition.icon.substr(
           -7,
         )}`;
       }
