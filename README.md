@@ -1,4 +1,4 @@
-#Weather App
+# Weather App
 
 [Live Demo](https://johnnynava.github.io/weather-app/)
 
